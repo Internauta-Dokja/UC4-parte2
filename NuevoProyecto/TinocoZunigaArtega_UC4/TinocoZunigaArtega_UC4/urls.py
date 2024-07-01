@@ -23,10 +23,5 @@ urlpatterns = [
     path(' ', views.index, name="index"),
     path('integrantes/', views.index, name="integrantes"),
     path('saludo/', views.saludo, name="saludo"),
-    path('rango/', views.rango, name="rango"),
-    path('rango2/', views.rango2, name="rango2"),
-    path('rango2/<int:a>', views.rango2, name="rango2"),
-    path('rango2/<int:a>/<int:b>', views.rango2, name="rango2"),
-    
-
+   
 ]
